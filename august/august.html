@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>August Cipher Encryptor</title>
+    <link rel="stylesheet" href="august.css">
+</head>
+<body>
+    <div class="container">
+        <h1>August Cipher</h1>
+        <input type="text" id="text-input" placeholder="Enter text..." />
+        <!-- <input type="number" id="shift-input" placeholder="Shift value" /> -->
+        
+        <button onclick="encryptText()">Encrypt</button>
+        <button onclick="decryptText()">Decrypt</button>
+
+        <h2>Result:</h2>
+        <p id="output"></p>
+    </div>
+
+    <button class="hint-button" onclick="showHint()">Hint</button>
+
+    <script src="august.js"></script>
+</body>
+</html>

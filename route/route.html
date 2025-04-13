@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Route Cipher</title>
+    <link rel="stylesheet" href="route.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Route Cipher</h1>
+        <input type="text" id="text-input" placeholder="Enter text..." />
+        <input type="number" id="rows-input" placeholder="Rows" min="1" />
+        <input type="number" id="cols-input" placeholder="Columns" min="1" />
+
+        <button onclick="encryptText()">Encrypt</button>
+        <button onclick="decryptText()">Decrypt</button>
+
+        <h2>Result:</h2>
+        <pre id="output"></pre>
+    </div>
+
+    <button class="hint-button" onclick="showHint()">Hint</button>
+    <script src="route.js"></script>
+</body>
+</html>

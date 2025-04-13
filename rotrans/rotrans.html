@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotrans Cipher Encryptor</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="rotrans.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Rotrans Cipher</h1>
+        <h3>Proposed Algorithm</h3>
+        <input type="text" id="text-input" placeholder="Enter text..." />
+        <input type="number" id="a-input" placeholder="a value" />
+        <input type="number" id="b-input" placeholder="b value" />
+        
+        <button onclick="encryptText()">Encrypt</button>
+        <button onclick="decryptText()">Decrypt</button>
+
+        <h2>Result:</h2>
+        <p id="output"></p>
+    </div>
+
+    <button class="hint-button" onclick="showHint()">Hint</button>
+
+    <div class="container">
+    <button onclick="plotEncryptedPoints()">Encrypt & Plot</button>
+    <canvas id="plotCanvas"></canvas>
+    </div>
+
+    <script src="rotrans.js"></script>
+</body>
+</html>

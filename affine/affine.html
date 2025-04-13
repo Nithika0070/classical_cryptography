@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Affine Cipher Encryptor</title>
+    <link rel="stylesheet" href="affine.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Affine Cipher</h1>
+        <input type="text" id="text-input" placeholder="Enter text..." />
+        <input type="number" id="a-input" placeholder="Weight value" />
+        <input type="number" id="b-input" placeholder="Bias value" />
+        
+        <button onclick="encryptText()">Encrypt</button>
+        <button onclick="decryptText()">Decrypt</button>
+
+        <h2>Result:</h2>
+        <p id="output"></p>
+    </div>
+
+    <button class="hint-button" onclick="showHint()">Hint</button>
+
+    <script src="affine.js"></script>
+</body>
+</html>

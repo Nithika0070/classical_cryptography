@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rail Fence Cipher</title>
+    <link rel="stylesheet" href="rail.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Rail Fence Cipher</h1>
+        <input type="text" id="text-input" placeholder="Enter text..." />
+        <input type="number" id="key-input" placeholder="Enter number of rails" min="2" />
+
+        <button onclick="encryptText()">Encrypt</button>
+        <button onclick="decryptText()">Decrypt</button>
+
+        <h2>Result:</h2>
+        <pre id="output"></pre>
+    </div>
+
+    <button class="hint-button" onclick="showHint()">Hint</button>
+    <script src="rail.js"></script>
+</body>
+</html>

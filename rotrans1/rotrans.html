@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encrypted Points Plot</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        canvas {
+            max-width: 600px;
+            margin: 20px auto;
+            border: 1px solid #ddd;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Encrypted Points Plot</h1>
+    <input type="text" id="text-input" placeholder="Enter text..." />
+    <input type="number" id="a-input" placeholder="Enter 'a' value" />
+    <input type="number" id="b-input" placeholder="Enter 'b' value" />
+    <button onclick="plotEncryptedPoints()">Encrypt & Plot</button>
+
+    <canvas id="plotCanvas"></canvas>
+
+    <script src="rotrans.js"></script>
+
+</body>
+</html>
