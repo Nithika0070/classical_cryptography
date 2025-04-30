@@ -59,5 +59,5 @@ This cipher creates **symbolic obfuscation** and is designed for creative encodi
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/classical-crypto-visualizer.git
+git clone https://github.com/Nithika0070/classical-crypto-visualizer.git
 cd classical-crypto-visualizer
